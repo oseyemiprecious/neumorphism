@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Whatsapp </title>
+    </head>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+            border: none;
+        }
+        .container {
+            width: 250px;
+            height: 400px;
+            padding: 40px;
+            border-radius: 20px;
+            box-sizing: border-box;
+            background: #ecf0f3;
+            box-shadow: 10px 10px 10px #cbced1,
+                        -10px -10px 10px white;
+            margin-left: 200px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo {
+            height: 70px;
+            width: 70px;
+            margin: auto;
+            box-sizing: border-box;
+            border-radius: 50px;
+            box-shadow: 7px 7px 10px #cbced1,
+                        -7px -7px 10px white ;
+            padding: 20px;
+        }
+        .content {
+            font-weight: bold;
+            color: #12940A;
+            padding-left: 100px;
+            font-family: sans-serif;
+
+        }
+        input {
+            border-radius: 15px;
+            border-color: white;
+            margin-left: 80px;
+            background: #ecf0f3;
+            font-size: 14px;
+            padding: 5px;
+            border: none;
+            box-shadow: inset 3px 3px 3px #cbced1,
+                        inset -3px -3px 3px white;
+            font-family: sans-serif;
+        }
+        .contact {
+            color: #32B222;
+            padding-left: 80px;
+            font-size: 10px;
+            font-family: sans-serif;
+        }
+        button {
+            padding-left: 60px;
+            padding-right: 60px;
+            border-radius: 10px;
+            background-color: #209E13;
+            border-color: #209E13;
+            margin-left: 80px;
+            box-shadow: 6px 6px 6px #cbced1,
+                        -6px -6px 6px white;
+            border: none;
+            font-family: sans-serif;
+        }
+        button:hover {
+            box-shadow: none;
+        }
+        .cop {
+            padding-right: 70px;
+        }
+        body {
+            background: #ecf0f3;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <img src="logo.jpg" class="logo">
+            <div class="cop">
+                 <p class="content"> WHATSAPP </p>
+                 <p class="contact"> WHATSAPP NO</p>
+                 <input type="text" placeholder="+234|" class="form">
+                 <p class="contact"> TWO-STEP PIN</p>
+                 <input type="text" placeholder="*********" class="form">
+                 <p><button> LOGIN </button></p>
+                 <br>
+                 <br>
+            </div>
+        </div>
+    </body>
+</html>
